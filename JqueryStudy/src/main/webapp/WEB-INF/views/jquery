@@ -1,0 +1,9 @@
+1. $() : jquery 함수를 의미. $()안에 css선택자가 온다.(css선택자 : 돔오브젝트를 접근할 수 있는 문법)
+		 $().메소드는 jquery함수를 통해 반환된 jquery객체의 메소드
+		 jquery객체 : jquery함수를 반환한 결과
+		 
+$(document).ready(function(){
+    $("p").click(function(){
+        $(this).hide(); 여기서 this=>'p'
+    });
+});
